@@ -1,7 +1,7 @@
 
 GET        /                    controllers.Application.index
 
-POST        /login              controllers.login.LoginController.login
+POST        /login/weibo              controllers.login.LoginController.weiboLogin
 
 
 # Use `Assets.versioned` to enable Play 2.3's Asset Fingerprinting

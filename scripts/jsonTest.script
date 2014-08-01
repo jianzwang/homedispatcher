@@ -1,0 +1,1 @@
+curl --include --request POST --header "Content-type: application/json" --data '{"content":{"weiboUid":"123","weiboAccessToken":"12345","weiboExpireIn":"12312312"},"appVersion":"1"}' http://localhost:9000/login/weibo
